@@ -17,25 +17,30 @@
 </head>
 
 <body>
-<!-- header -->
-<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <a class="navbar-brand mr-auto" href="#">Ristorante Con Fusion</a>
-        <!-- Because of class collapse, the content of the ul will be hidden by default -->
-        <div  class="collapse navbar-collapse" id="navbar"> 
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"> <a class="nav-link active" href="#"><span class="fa fa-home fa-lg"></span> Home</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="/aboutus.html"><span class="fa fa-info fa-lg"></span>About</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="./contactus.html"> <span class="fa fa-address-card fa-lg"></span>Contact</a> </li>
-            </ul>
+    <!-- header -->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41" alt=""></a>
+            <!-- Because of class collapse, the content of the ul will be hidden by default -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"> <a class="nav-link active" href="#"><span class="fa fa-home fa-lg"></span>
+                            Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="/aboutus.html"><span
+                                class="fa fa-info fa-lg"></span>About</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactus.html"> <span class="fa fa-address-card fa-lg"></span>Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -45,57 +50,76 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <!-- xsm=> entire width, from sm to xlg=>occupy the leftover columns(6 col) -->
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm align-self-center">
+                    <img src="img/logo.png" class="img-fluid">
                 </div>
             </div>
         </div>
     </header>
 
-<!-- main content -->
+    <!-- main content -->
     <div class="container">
-        <!-- first column -->
+        <!-- first row -->
         <div class="row row-content align-items-center">
             <!-- xsm=>entire row, sm=>1/3, md to xlg=> 1/4 -->
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
-                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">Uthappizza</h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- second column -->
+        <!-- second row -->
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet</h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person
+                        </p>
+                    </div>
+                    <img class="d-flex img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
+
             </div>
         </div>
-        <!-- third column -->
+        <!-- third row -->
         <div class="row row-content align-items-center">
+
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="alberto">
+                    <div class="media-body">
+                        <h2>Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-<!-- footer  -->
+    <!-- footer  -->
     <footer class="footer">
         <!-- The container gives a fixed width to the content on which it is applied. -->
-        <div class="container"> 
+        <div class="container">
             <!-- First row -->
-            <div class="row justify-content-center"> 
+            <div class="row justify-content-center">
                 <!-- first column  -->
-                <div class="col-4 offset-1 col-sm-2"> 
+                <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <!-- Remove the points in front of the li's -->
                     <ul class="list-unstyled">
@@ -109,32 +133,39 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		             <i class="fa fa-phone"></i> +852 1234 5678<br>
-                     <i class="fa fa-fax"></i> +852 8765 4321<br>
-                     <i class="fa fa-envelope"></i><a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        HONG KONG<br>
+                        <i class="fa fa-phone"></i> +852 1234 5678<br>
+                        <i class="fa fa-fax"></i> +852 8765 4321<br>
+                        <i class="fa fa-envelope"></i><a href="mailto:confusion@food.net">confusion@food.net</a>
+                    </address>
                 </div>
                 <!-- third column -->
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+" class="btn btn-social-icon btn-google"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a href="http://www.facebook.com/profile.php?id=" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook fa-lg"></i></a>
-                        <a href="http://www.linkedin.com/in/" class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a href="http://twitter.com/" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a href="http://youtube.com/" class="btn btn-social-icon btn-youtube"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a href="http://google.com/+" class="btn btn-social-icon btn-google"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a href="http://www.facebook.com/profile.php?id=" class="btn btn-social-icon btn-facebook"><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a href="http://www.linkedin.com/in/" class="btn btn-social-icon btn-linkedin"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a href="http://twitter.com/" class="btn btn-social-icon btn-twitter"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a href="http://youtube.com/" class="btn btn-social-icon btn-youtube"><i
+                                class="fa fa-youtube fa-lg"></i></a>
                         <a href="mailto:" class="btn btn-social-icon"><i class="fa fa-envelope fa-lg"></i></a>
                     </div>
                 </div>
 
-           </div>  <!--  end first row-->
-           <div class="row justify-content-center">             
+            </div>
+            <!--  end first row-->
+            <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
-           </div> <!--  end second row-->
+            </div>
+            <!--  end second row-->
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
